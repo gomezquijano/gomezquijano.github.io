@@ -1,41 +1,124 @@
-/* Reduce excessive whitespace in the main biography section */
-section {
-  scroll-margin-top: 5rem;
+/* =========================================================
+   HOMEPAGE HERO
+   ========================================================= */
+
+#hero {
+  position: relative;
+  min-height: 680px;
+  display: flex;
+  align-items: center;
+  background-position: center 58% !important;
+  background-size: cover !important;
 }
 
-/* Keep homepage content from becoming too wide */
-.hbx-page-header,
-.hbx-page-body {
-  max-width: 1180px;
-  margin-inline: auto;
+#hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(
+      90deg,
+      rgba(11, 39, 32, 0.84) 0%,
+      rgba(11, 39, 32, 0.68) 42%,
+      rgba(11, 39, 32, 0.30) 72%,
+      rgba(11, 39, 32, 0.15) 100%
+    );
 }
 
-/* Make biography text easier to read */
-.prose {
-  line-height: 1.65;
+#hero > * {
+  position: relative;
+  z-index: 1;
 }
 
-/* Reduce excessive paragraph gaps */
-.prose p {
-  margin-top: 0.75rem;
-  margin-bottom: 0.75rem;
+.mjg-hero-content {
+  width: min(760px, 100%);
+  margin: 0 auto 0 max(5vw, 1rem);
+  color: #f5f0e3;
 }
 
-/* Improve heading spacing */
-.prose h1,
-.prose h2,
-.prose h3 {
-  margin-top: 1rem;
-  margin-bottom: 0.75rem;
+.mjg-hero-kicker {
+  margin: 0 0 1rem;
+  font-size: clamp(1rem, 1.6vw, 1.25rem);
+  font-weight: 650;
+  letter-spacing: 0.055em;
+  text-transform: uppercase;
 }
 
-/* Prevent extremely long names from dominating the layout */
-h1 {
-  line-height: 1.05;
+.mjg-hero-content h1 {
+  margin: 0;
+  color: #f5f0e3;
+  font-size: clamp(3rem, 6.5vw, 5.8rem);
+  line-height: 0.98;
+  letter-spacing: -0.035em;
+  text-wrap: balance;
 }
 
-/* Make buttons slightly less oversized */
-a[class*="button"],
-button {
-  border-radius: 0.5rem;
+.mjg-hero-summary {
+  max-width: 680px;
+  margin: 1.6rem 0 0;
+  color: #f5f0e3;
+  font-size: clamp(1.15rem, 2vw, 1.45rem);
+  line-height: 1.55;
+}
+
+.mjg-hero-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  margin-top: 2rem;
+}
+
+.mjg-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 0.75rem 1.3rem;
+  border: 2px solid #dce5d3;
+  border-radius: 0.45rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition:
+    transform 160ms ease,
+    background-color 160ms ease,
+    color 160ms ease;
+}
+
+.mjg-button:hover {
+  transform: translateY(-2px);
+}
+
+.mjg-button-primary {
+  background: #dce5d3;
+  color: #0b2720;
+}
+
+.mjg-button-primary:hover {
+  background: #f5f0e3;
+  color: #0b2720;
+}
+
+.mjg-button-secondary {
+  background: rgba(11, 39, 32, 0.25);
+  color: #f5f0e3;
+}
+
+.mjg-button-secondary:hover {
+  background: #f5f0e3;
+  color: #0b2720;
+}
+
+@media (max-width: 760px) {
+  #hero {
+    min-height: 620px;
+    background-position: 42% center !important;
+  }
+
+  .mjg-hero-content {
+    margin: 0;
+  }
+
+  .mjg-hero-content h1 {
+    font-size: clamp(2.7rem, 13vw, 4.1rem);
+  }
 }
