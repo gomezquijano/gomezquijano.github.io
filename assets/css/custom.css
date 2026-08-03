@@ -37,17 +37,15 @@
 }
 
 .mjg-hero-content {
-  box-sizing: border-box;
-  width: min(900px, calc(100% - 3rem));
-  margin: 0 auto;
-  padding: 3rem 3.5rem;
 
-  text-align: center;
-  color: #0b2720;
-  background: rgba(245, 240, 227, 0.9);
-  border-radius: 0.9rem;
-  box-shadow: 0 14px 38px rgba(11, 39, 32, 0.2);
-  backdrop-filter: blur(3px);
+    width: 700px;          /* instead of 900 or 1000 */
+    max-width: 90%;
+    margin: 0 auto;        /* centers it */
+    padding: 3rem;
+    background: rgba(248,245,235,.92);
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0,0,0,.15);
+    text-align:center;
 }
 
 .mjg-hero-kicker {
