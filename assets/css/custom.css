@@ -1,0 +1,90 @@
+.about-grid {
+  display: grid;
+  grid-template-columns: minmax(250px, 0.8fr) minmax(420px, 1.4fr);
+  gap: 4rem;
+  align-items: center;
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+.about-profile {
+  text-align: center;
+}
+
+.about-photo {
+  width: 190px;
+  height: 190px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 auto 1.25rem;
+  border: 5px solid rgba(255, 255, 255, 0.85);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.about-profile h1 {
+  margin: 0;
+  font-size: clamp(2rem, 4vw, 3.4rem);
+  line-height: 1.05;
+}
+
+.pronunciation {
+  margin: 0.75rem 0;
+  font-size: 0.95rem;
+  opacity: 0.7;
+}
+
+.about-role {
+  margin: 1rem 0 0.4rem;
+  font-weight: 650;
+  font-size: 1.1rem;
+}
+
+.about-position {
+  margin: 0;
+}
+
+.about-links {
+  margin-top: 1.25rem;
+}
+
+.about-bio {
+  max-width: 720px;
+}
+
+.about-bio h2 {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+  font-size: 2rem;
+}
+
+.about-bio p {
+  line-height: 1.75;
+  margin-bottom: 1.1rem;
+}
+
+.cv-button {
+  display: inline-block;
+  margin-top: 0.75rem;
+  padding: 0.8rem 1.25rem;
+  border-radius: 0.5rem;
+  background: #315f1c;
+  color: white;
+  text-decoration: none;
+  font-weight: 650;
+}
+
+.cv-button:hover {
+  background: #244815;
+}
+
+@media (max-width: 850px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .about-bio {
+    max-width: 680px;
+    margin: 0 auto;
+  }
+}
