@@ -19,9 +19,14 @@ sections:
         interests: Interests
     design:
       background:
-        color: "#F5F0E3"
+        image:
+          filename: IMG_2850_2.JPG
+          filters:
+            brightness: 0.85
+            opacity: 0.25
+            blur: 3px
       name:
-        size: md
+        size: lg
       avatar:
         size: medium
         shape: circle
