@@ -13,19 +13,17 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Your Name"
+    name: "Maria Jose Gomez Quijano"
     # Legal entity for copyright notices (defaults to name if not set)
     organization: ""
     # Schema.org type for structured data
     type: person # person | organization | local_business
     # Short tagline displayed on your site
-    tagline: ""
+    tagline: "Evolutionary Biologist · Molecular Ecologist"
     # Site meta description for search engines and social sharing
-    description: "The highly-customizable Hugo Academic theme powered by HugoBlox
-      Kit. Easily create your personal academic website."
+    description: "Personal academic website of Dr. Maria Jose Gomez Quijano"
     # Social accounts (used for meta tags like Twitter Cards)
-    social:
-      twitter: "GoOwnable" # Twitter/X handle for Twitter Cards (without @)
+
 
   # ────────────────────────────────────────────────────────────────────────────
   # THEME
@@ -33,27 +31,27 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   theme:
     # Mode: 'light', 'dark', or 'system' (follows OS preference)
-    mode: system
+    mode: light
     # Theme pack: name from data/themes/ or { light: "x", dark: "y" } for mix-and-match
-    pack: "default"
+    pack: "minimal"
     # Optional: Override theme pack colors
     colors:
-      primary: "" # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
-      secondary: ""
-      neutral: "" # Affects gray utilities (text-gray-*, bg-gray-*)
+      primary: "#315F1C" # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
+      secondary: "#7A8F57"
+      neutral: "stone" # Affects gray utilities (text-gray-*, bg-gray-*)
     # Optional: Mode-specific color overrides
     colors_light: {}
     colors_dark: {}
     # Optional: Semantic surface color overrides
     surfaces:
-      background: ""
-      foreground: ""
-      header:
-        background: ""
-        foreground: ""
-      footer:
-        background: ""
-        foreground: ""
+    background: "#F5F0E3"
+    foreground: "#26351B"
+    header:
+      background: "#EEF8C8"
+      foreground: "#26351B"
+    footer:
+      background: "#F5F0E3"
+      foreground: "#26351B"
 
   # ────────────────────────────────────────────────────────────────────────────
   # TYPOGRAPHY
@@ -71,7 +69,7 @@ hugoblox:
     # Border radius: 'none', 'sm', 'md', 'lg', or 'full'
     radius: "md"
     # Spacing density: 'compact', 'comfortable', or 'spacious'
-    spacing: "spacious"
+    spacing: "compact"
     # Avatar shape in author profiles
     avatar_shape: circle # circle | square | rounded
 
@@ -81,22 +79,13 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   header:
     enable: true
-    # Header style variant
-    style: navbar # navbar | navbar-simple | minimal
-    # Stick to top on scroll
+    style: navbar
     sticky: true
-    # Menu alignment
-    align: center # left | center | right
-    # Feature toggles
+    align: center
     search: true
-    theme_toggle: true
-    theme_picker: true
-    language_switcher: true
-    # Call-to-action button
-    cta:
-      enable: false
-      text: ""
-      url: ""
+    theme_toggle: false
+    theme_picker: false
+    language_switcher: false
 
   # ────────────────────────────────────────────────────────────────────────────
   # FOOTER
@@ -105,7 +94,7 @@ hugoblox:
   footer:
     # Footer style variant
     style: minimal # minimal | columns | centered
-    language_switcher: true
+    language_switcher: false
     # Custom footer text (HTML supported)
     text: ""
 
