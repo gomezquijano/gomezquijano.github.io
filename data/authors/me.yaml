@@ -2,7 +2,7 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Dr. María José Gómez Quijano
+  display: María José Gómez Quijano, PhD
   given: María José
   family: Gómez Quijano
   alternate: ''  # Example: 王伟
