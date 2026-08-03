@@ -28,18 +28,33 @@ sections:
             <a href="/uploads/Maria_Jose_Gomez_CV.pdf" class="mjg-button mjg-button-secondary">Download CV</a>
           </div>
 
-         <div class="mjg-social-links">
-            <a href="mailto:mariajose.gomez@utoronto.ca" aria-label="Email"><img src="/icons/email.svg" alt=""></a>
-            <a href="https://github.com/gomezquijano) target="_blank" rel="noopener" aria-label="GitHub"><img src="brands/github" alt=""></a>
-            <a href="YOUR_GOOGLE_SCHOLAR_URL" target="_blank" rel="noopener" aria-label="Google Scholar"><img src="academicons/google-scholar" alt=""></a>
-            <a href="YOUR_ORCID_URL" target="_blank" rel="noopener" aria-label="ORCID"><img src=" academicons/orcid" alt=""></a>
-            <a href="https://bsky.app/profile/mariajosegomezq.bsky.social" target="_blank" rel="noopener" aria-label="Bluesky"><img src="brands/bluesky" alt=""></a>
-        </div>
-
         </div>
 
     design:
       columns: '1'
       spacing:
         padding: [70px, 24px, 70px, 24px]
+
+# =========================================================
+# ABOUT ME
+# =========================================================
+- block: resume-biography-3
+  id: about
+  content:
+    username: me
+    text: ''
+    headings:
+      about: About Me
+      education: ''
+      interests: ''
+    design:
+      name:
+        size: sm
+      avatar:
+        size: large
+        shape: circle
+      background:
+        color: "#F5F0E3"
+      spacing:
+        padding: [40px, 24px, 40px, 24px]
 ---
