@@ -19,8 +19,8 @@ sections:
 
           <p class="mjg-hero-summary">
             I am an evolutionary biologist and molecular ecologist interested in how evolutionary and ecological processes
-            interact to shape the evolutionary trajectories of natural plant populations. Beyond research, I am deeply committed
-            to teaching, mentorship, anti-oppressive approaches to science education, and science communication.
+            interact to shape the evolutionary trajectories of natural plant populations. Beyond research, I am passionate about
+            teaching and learning, mentorship, anti-oppressive approaches to science education, and science communication.
           </p>
 
           <div class="mjg-hero-buttons">
