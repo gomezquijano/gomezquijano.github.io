@@ -41,9 +41,10 @@ sections:
       columns: '1'
       background:
         image:
-          filename: purple-loosestrife-hero.jpg
+          filename: background.png
           filters:
             brightness: 0.55
       spacing:
         padding: [110px, 24px, 110px, 24px]
+
 ---
