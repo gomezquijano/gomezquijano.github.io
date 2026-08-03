@@ -38,23 +38,23 @@ sections:
 # =========================================================
 # ABOUT ME
 # =========================================================
-- block: resume-biography-3
-  id: about
-  content:
-    username: me
-    text: ''
-    headings:
-      about: About Me
-      education: ''
-      interests: ''
-    design:
-      name:
-        size: sm
-      avatar:
-        size: large
-        shape: circle
-      background:
-        color: "#F5F0E3"
-      spacing:
-        padding: [40px, 24px, 40px, 24px]
+  - block: resume-biography-3
+    id: about
+    content:
+      username: me
+      text: ''
+      headings:
+        about: About Me
+        education: ''
+        interests: ''
+      design:
+        name:
+          size: sm
+        avatar:
+          size: large
+          shape: circle
+        background:
+          color: "#F5F0E3"
+        spacing:
+          padding: [40px, 24px, 40px, 24px]
 ---
