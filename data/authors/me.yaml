@@ -12,20 +12,25 @@ postnominals:
   - PhD
 status:
   icon: ''
-role: EEB Postdoctoral Fellow University of Toronto - Wright Lab
+role: EEB Postdoctoral Fellow University of Toronto
 bio: |
-  I am an evolutionary biologist and molecular ecologist interested in how evolutionary forces interact with ecological processes to shape the evolutionary trajectories of natural plant populations. 
-  My research combines population genomics and quantitative genetic approaches to investigate local adaptation, demographic history, and biological invasions.
+  I am an evolutionary biologist and molecular ecologist interested in how evolutionary and ecological processes 
+  interact to shape the evolutionary trajectories of natural plant populations. My research combines population genomics 
+  and quantitative genetics to investigate local adaptation, demographic history, and biological invasions.
   
-  I completed my PhD in Biology at Queen's University in 2026 supervised by Dr. Rob Colautti, and my MSc in Integrated Biosciences at the University of Minnesota Duluth in 2021 co-supervised by Dr. Briana Gross and Dr. Julie Etterson.
+  Beyond research, I am deeply committed to teaching, mentorship, anti-oppressive approaches to science education, and science communication. 
+  These have been central to my academic training, and I strive to incorporate them into every aspect of my work.
   
-  I am currently a Postdoctoral Fellow in the Department of Ecology and Evolutionary Biology at the University of Toronto in the Wright Lab. 
-  I am working on a large collaborative project investigating the invasion history and genetic basis of adaptation in capeweed (Arctotheca calendula) across Australia. 
-  My current research focuses on temporal population genomics, using herbarium collections to reconstruct patterns of introduction, spread, and adaptation through time.
+  Icompleted my PhD in Biology at Queen's University in 2026 under the supervision of Dr. Rob Colautti. 
+  I previously earned an MSc in Integrated Biosciences from the University of Minnesota Duluth in 2021, 
+  where I was co-supervised by Dr. Briana Gross and Dr. Julie Etterson.
+  
+  I am currently a Postdoctoral Fellow in the Department of Ecology & Evolutionary Biology at the University of Toronto in the Wright Lab. 
+  As part of a large collaborative project, I study the invasion history and genetic basis of adaptation in capeweed (*Arctotheca calendula*) across Australia. 
   
 affiliations:
-  - name: Wright Lab
-    url: https://wright.eeb.utoronto.ca/
+  - name: University of Toronto · Wright Lab
+    url: "https://wright.eeb.utoronto.ca/"
 
 links:
   - icon: at-symbol
@@ -40,35 +45,3 @@ links:
   - icon: academicons/orcid
     url: "https://orcid.org/0009-0001-7108-8500"
 
-interests:
-  - Local adaptation
-  - Assortative Mating
-  - Population Genomics
-  - Temporal Genomics
-  - Quantitative and computational biology
-  - Teaching and Learning
-  - Science communication
-  - IEDIAA research and education
-  - Mentorship
-
-education:
-  - degree: PhD Biology
-    institution: Queen's University - Colautti Lab
-    start: 2021
-    end: 2026
-    Thesis: |
-      "Evolutionary Ecology and Population Differentiation of Two Widespread Taxa With Different Range Expansion Timescales in North America"
-  - degree: MSc Integrated Biosciences
-    institution: University of Minnesota Duluth - Gross Lab and Etterson Lab
-    start: 2018
-    end: 2021
-    Thesis: |
-      "Phenotypic And Molecular Insight Into Genetic Differentiation, Introgression And Selection In Quercus Rubra At A Fine Spatial Scale"
-  - degree: BS Cell and Molecular Biology
-    institution: University of Minnesota Duluth
-    start: 2014
-    end: 2018
-  - degree: BA Communication
-    institution: University of Minnesota Duluth
-    start: 2014
-    end: 2018
