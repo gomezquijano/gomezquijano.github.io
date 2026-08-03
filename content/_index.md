@@ -24,7 +24,6 @@ sections:
           filters:
             brightness: 0.85
             opacity: 0.25
-            blur: 3px
       name:
         size: lg
       avatar:
