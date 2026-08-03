@@ -20,7 +20,7 @@ sections:
     design:
       background:
         image:
-          filename: IMG_2850_2.JPG
+          filename: background.png
           filters:
             brightness: 0.85
             opacity: 0.25
