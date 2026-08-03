@@ -186,3 +186,29 @@ footer {
     justify-content: center;
   }
 }
+
+/* Left biography column */
+#about .text-3xl {
+  font-size: 2.8rem !important;
+  line-height: 1.05;
+}
+
+#about h1,
+#about h2 {
+  line-height: 1.05;
+}
+
+#about .text-xl {
+  font-size: 1.2rem !important;
+}
+
+#about .text-lg {
+  font-size: 1rem !important;
+}
+#about .container {
+    max-width: 1450px;
+}
+#about .grid {
+    grid-template-columns: 0.85fr 1.35fr;
+    gap: 4rem;
+}
