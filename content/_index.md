@@ -15,23 +15,16 @@ sections:
         url: uploads/Maria_Jose_Gomez_CV.pdf
       headings:
         about: About me
-        education: Education
-        interests: Interests
+        education: ''
+        interests: ''
     design:
-      background:
-        image:
-          filename: background.png
-          filters:
-            brightness: 0.95
-            opacity: 0.35
-            blur: 0.5px
       name:
-        size: lg
+        size: sm
       avatar:
         size: medium
         shape: circle
       spacing:
-        padding: [48px, 0, 32px, 0]
+        padding: [32px, 0, 32px, 0]
 
   # Research overview
   - block: markdown
