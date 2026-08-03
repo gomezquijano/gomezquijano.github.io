@@ -28,6 +28,13 @@ sections:
             <a href="/uploads/Maria_Jose_Gomez_CV.pdf" class="mjg-button mjg-button-secondary">Download CV</a>
           </div>
 
+          <div class="mjg-hero-links">
+            <a href="mailto:mariajose.gomez@utoronto.ca">Email</a>
+            <a href="https://bsky.app/profile/mariajosegomezq.bsky.social" target="_blank" rel="noopener">Bluesky</a>
+            <a href="https://scholar.google.com/citations?user=7Vxn87kAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+            <a href="https://orcid.org/0009-0001-7108-8500" target="_blank" rel="noopener">ORCID</a>
+          </div>
+
         </div>
 
     design:
