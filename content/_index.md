@@ -23,7 +23,8 @@ sections:
           filename: background.png
           filters:
             brightness: 0.95
-            opacity: 0.1
+            opacity: 0.35
+            blur: 0.5px
       name:
         size: lg
       avatar:
