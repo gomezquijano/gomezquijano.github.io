@@ -31,13 +31,13 @@ sections:
           </div>
         </div>
 
-    design:
-      columns: '1'
-      background:
-        image:
-          filename: background.png
-          filters:
-            brightness: 0.9
-      spacing:
-        padding: [70px, 24px, 70px, 24px]
+    ddesign:
+  columns: '1'
+  background:
+    image:
+      filename: background.png
+      filters:
+        brightness: 1
+  spacing:
+    padding: [70px, 24px, 70px, 24px]
 ---
