@@ -3,8 +3,9 @@
    ========================================================= */
 
 #hero {
+  #hero {
   position: relative;
-  min-height: 650px;
+  min-height: calc(100vh - 72px);
   display: flex;
   align-items: center;
 
@@ -38,10 +39,10 @@
 
 .mjg-hero-content {
   box-sizing: border-box;
-  width: min(980px, 57vw);
+  width: min(820px, 52vw);
   margin-left: auto;
-  margin-right: 2.5vw;
-  padding: 3rem 3.5rem;
+  margin-right: 4vw;
+  padding: 2.75rem 3rem;
 
   color: #0b2720;
   background: rgba(245, 240, 227, 0.88);
@@ -126,7 +127,7 @@
 
 @media (max-width: 950px) {
   #hero {
-    min-height: 620px;
+    min-height: calc(100vh - 64px);
     background-position: 43% center !important;
   }
 
@@ -135,4 +136,25 @@
     margin: 0 auto;
     padding: 2rem 1.5rem;
   }
+}
+
+/* =========================================================
+   COMPACT FOOTER
+   ========================================================= */
+
+footer {
+  padding-top: 0.65rem !important;
+  padding-bottom: 0.65rem !important;
+  min-height: auto !important;
+}
+
+footer p,
+footer div {
+  margin-top: 0.15rem !important;
+  margin-bottom: 0.15rem !important;
+  line-height: 1.35;
+}
+
+footer {
+  font-size: 0.82rem;
 }
