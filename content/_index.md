@@ -13,12 +13,12 @@ sections:
       text: |-
         <div class="mjg-hero-content">
           <p class="mjg-hero-kicker">
-            Evolutionary Biologist · Molecular Ecologist · Science Educator
+            Evolutionary Biologist · Molecular Ecologist 
           </p>
           <h1>Dr. María José Gómez Quijano</h1>
           <p class="mjg-hero-summary">
-            I study how evolutionary and ecological processes shape adaptation,
-            demographic history, and biological invasions in natural plant populations.
+            I study how evolutionary and ecological processes interact
+            to shape the evolutionary trajectories of natural plant populations.
           </p>
           <div class="mjg-hero-buttons">
             <a href="#about" class="mjg-button mjg-button-primary">
