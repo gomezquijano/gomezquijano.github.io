@@ -29,16 +29,16 @@ affiliations:
 
 links:
   - icon: at-symbol
-    url: mailto: mariajose.gomez@utoronto.ca
+    url: mailto: "mariajose.gomez@utoronto.ca"
     label: E-mail Me
   - icon: brands/bluesky
-    url: https://bsky.app/profile/mariajosegomezq.bsky.social
+    url: "https://bsky.app/profile/mariajosegomezq.bsky.social"
   - icon: brands/github
     url: https://github.com/gomezquijano
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=7Vxn87kAAAAJ&hl=en
+    url: "https://scholar.google.com/citations?user=7Vxn87kAAAAJ&hl=en"
   - icon: academicons/orcid
-    url: https://orcid.org/0009-0001-7108-8500
+    url: "https://orcid.org/0009-0001-7108-8500"
 
 interests:
   - Local adaptation
