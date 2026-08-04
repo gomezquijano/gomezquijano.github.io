@@ -91,12 +91,30 @@ hugoblox:
   # FOOTER
   # Site footer
   # ────────────────────────────────────────────────────────────────────────────
-  footer:
-    # Footer style variant
-    style: minimal # minimal | columns | centered
+   footer:
+    style: centered
     language_switcher: false
-    # Custom footer text (HTML supported)
-    text: ""
+    text: |
+      <div class="mjg-footer-content">
+        <img
+          src="/uploads/icon.png"
+          class="mjg-footer-logo"
+          alt="MJGQ botanical crest"
+        >
+
+        <p class="mjg-footer-tagline">
+          Evolutionary Biologist · Molecular Ecologist
+        </p>
+
+        <p class="mjg-footer-ai">
+          Botanical crest developed by María José Gómez Quijano with the assistance of OpenAI image generation.
+        </p>
+      </div>
+
+  copyright:
+    notice: "© {year} {name}. All rights reserved."
+    license:
+      type: all_rights
 
   # ────────────────────────────────────────────────────────────────────────────
   # COPYRIGHT
