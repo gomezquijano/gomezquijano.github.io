@@ -238,14 +238,14 @@
 
 /* Profile name */
 #about .hb-ruby-name {
-  font-size: 2rem !important;
+  font-size: 2.05rem !important;
   line-height: 1.12 !important;
 }
 
 /* Pronunciation guide */
 #about .hb-ruby-name rt {
   color: #817b74;
-  font-size: 1rem !important;
+  font-size: 1.05rem !important;
   font-weight: 600;
   line-height: 1.1;
   letter-spacing: 0.025em;
