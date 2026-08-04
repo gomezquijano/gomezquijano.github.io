@@ -4,7 +4,7 @@
 
 #hero {
   position: relative;
-  min-height: 950px;
+  min-height: min(950px, calc(100vh - 70px));
 
   display: flex;
   align-items: center;
@@ -21,11 +21,13 @@
   content: "";
   position: absolute;
   inset: 0;
+
   background: rgba(248, 245, 235, 0.18);
+
   pointer-events: none;
 }
 
-/* Allow the generated landing-page containers to span the hero */
+/* Allow generated Hugo Blox containers to span the hero */
 #hero > div,
 #hero .container,
 #hero .container-fluid {
@@ -40,6 +42,7 @@
 #hero .row {
   width: 100%;
   margin: 0;
+
   justify-content: center;
 }
 
@@ -49,7 +52,7 @@
   flex: 0 0 100%;
 }
 
-/* Remove default Markdown-block spacing */
+/* Remove default Markdown block width restriction */
 #hero .markdown {
   width: 100%;
 }
@@ -60,12 +63,12 @@
 
 .mjg-hero-content {
   box-sizing: border-box;
-  transform: translateX(-10px);
+
   width: min(950px, calc(100% - 48px));
   margin: 0 auto;
-
-  /* Shorter vertically and roomier horizontally */
   padding: 2rem 4rem;
+
+  transform: translateX(-10px);
 
   background: rgba(248, 245, 235, 0.92);
   border-radius: 22px;
@@ -132,7 +135,9 @@
   font-weight: 700;
   text-decoration: none;
 
-  transition: transform 0.2s, background-color 0.2s;
+  transition:
+    transform 0.2s,
+    background-color 0.2s;
 }
 
 .mjg-button:hover {
@@ -141,7 +146,7 @@
 
 .mjg-button-primary {
   background: #315f1c;
-  color: white;
+  color: #ffffff;
 }
 
 .mjg-button-secondary {
@@ -150,10 +155,13 @@
 }
 
 .mjg-button-secondary:hover {
-  background: white;
+  background: #ffffff;
 }
 
-/* Mobile */
+/* ===========================
+   HERO MOBILE
+   =========================== */
+
 @media (max-width: 900px) {
   #hero {
     min-height: 550px;
@@ -162,6 +170,8 @@
   .mjg-hero-content {
     width: calc(100% - 2rem);
     padding: 2rem 1.5rem;
+
+    transform: none;
   }
 
   .mjg-hero-content h1 {
@@ -190,7 +200,7 @@
   margin-inline: auto;
 }
 
-/* Give the profile column a little more room */
+/* Give the profile column more room */
 #about .row > div:first-child {
   flex: 0 0 42%;
   max-width: 42%;
@@ -212,7 +222,8 @@
 
 #about .avatar,
 #about .avatar img,
-#about img.avatar {
+#about img.avatar,
+#about .avatar-wrapper img {
   width: 320px !important;
   height: 320px !important;
   max-width: 320px !important;
@@ -222,45 +233,49 @@
 }
 
 /* =========================================================
-   LEFT COLUMN TYPOGRAPHY
+   PROFILE NAME AND DETAILS
    ========================================================= */
 
 /* Profile name */
-
-#about h1{
-    font-size:2.4rem !important;
-    line-height:1.05 !important;
+#about .hb-ruby-name {
+  font-size: 1.8rem !important;
+  line-height: 1.08 !important;
 }
 
-@media (min-width:640px){
-    #about h1{
-        font-size:2.8rem !important;
-    }
+/* Pronunciation guide */
+#about .hb-ruby-name rt {
+  color: #918b85;
+  font-size: 0.68rem !important;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0.05em;
 }
 
-@media (min-width:1024px){
-    #about h1{
-        font-size:3.2rem !important;
-    }
+/* Slightly larger name on larger screens */
+@media (min-width: 640px) {
+  #about .hb-ruby-name {
+    font-size: 2.7rem !important;
+  }
 }
 
-/* Pronunciation */
-#about .name-pronunciation {
-  font-size: 1rem;
-  color: #888;
+@media (min-width: 1024px) {
+  #about .hb-ruby-name {
+    font-size: 3rem !important;
+  }
 }
 
 /* Pronouns */
 #about .portrait-title p {
+  margin-bottom: 0.5rem;
+
   font-size: 1rem;
-  margin-bottom: .5rem;
 }
 
 /* Job title */
 #about .portrait-title h3 {
+  color: #315f1c;
   font-size: 1.4rem !important;
   line-height: 1.3;
-  color: #315f1c;
 }
 
 /* Institution */
@@ -277,30 +292,42 @@
   line-height: 1.65;
 }
 
+/* Prevent long text from overflowing */
 #about h1,
 #about h2,
-#about h3 {
+#about h3,
+#about p,
+#about a {
   max-width: 100%;
   overflow-wrap: break-word;
 }
 
 /* =========================================================
-   TABLET AND MOBILE
+   ABOUT TABLET AND MOBILE
    ========================================================= */
 
 @media (max-width: 991px) {
+  #about .container,
+  #about .container-fluid {
+    width: calc(100% - 32px) !important;
+  }
+
   #about .row {
     display: block;
   }
 
+  #about .row > div:first-child,
+  #about .row > div:last-child,
   #about .row > * {
     width: 100%;
     max-width: 100%;
+    flex: 0 0 100%;
   }
 
   #about .resume-biography,
   #about .portrait-title {
     margin-bottom: 3rem;
+
     text-align: center;
   }
 
@@ -311,11 +338,13 @@
     margin-inline: auto;
   }
 
-  #about img.avatar,
+  #about .avatar,
   #about .avatar img,
+  #about img.avatar,
   #about .avatar-wrapper img {
-    width: 220px !important;
-    height: 220px !important;
+    width: 240px !important;
+    height: 240px !important;
+    max-width: 240px !important;
   }
 }
 
@@ -325,8 +354,8 @@
     width: calc(100% - 32px) !important;
   }
 
-  #about h1 {
-    font-size: clamp(2rem, 11vw, 2.8rem) !important;
+  #about .hb-ruby-name {
+    font-size: clamp(2rem, 10vw, 2.6rem) !important;
   }
 
   #about .article-style,
@@ -335,4 +364,17 @@
     font-size: 1rem;
     line-height: 1.65;
   }
+}
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+
+footer {
+  padding: 0.75rem 0 !important;
+  font-size: 0.82rem;
+}
+
+footer p {
+  margin: 0.2rem 0;
 }
