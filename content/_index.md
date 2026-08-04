@@ -29,7 +29,7 @@ sections:
           </div>
 
         </div>
-  - block: resume-biography-3
+    - block: resume-biography-3
       id: about
       content:
         username: me
