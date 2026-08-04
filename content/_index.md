@@ -5,7 +5,7 @@ date: 2026-08-03
 type: landing
 
 sections:
-    - block: markdown
+  - block: markdown
     id: hero
     content:
       title: ''
@@ -13,9 +13,11 @@ sections:
       text: |-
         <div class="mjg-hero-content">
 
-          <p class="mjg-hero-kicker">Evolutionary Biologist · Molecular Ecologist </p>
+          <p class="mjg-hero-kicker">
+            Evolutionary Biologist · Molecular Ecologist
+          </p>
 
-          <h1> María José Gómez Quijano</h1>
+          <h1>María José Gómez Quijano</h1>
 
           <p class="mjg-hero-summary">
             I am an evolutionary biologist and molecular ecologist interested in how evolutionary and ecological processes
@@ -29,14 +31,17 @@ sections:
           </div>
 
         </div>
-    - block: resume-biography-3
-      id: about
-      content:
-        username: me
-
 
     design:
       columns: '1'
       spacing:
         padding: [40px, 24px, 40px, 24px]
+
+  - block: resume-biography-3
+    id: about
+    content:
+      username: me
+    design:
+      spacing:
+        padding: [80px, 24px, 80px, 24px]
 ---
