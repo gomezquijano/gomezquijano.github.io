@@ -4,7 +4,7 @@
 
 #hero {
   position: relative;
-  min-height: min(850px, calc(100vh - 70px));
+  min-height: min(950px, calc(100vh - 70px));
 
   display: flex;
   align-items: center;
@@ -64,7 +64,7 @@
 .mjg-hero-content {
   box-sizing: border-box;
 
-  width: min(950px, calc(100% - 48px));
+  width: min(750px, calc(100% - 48px));
   margin: 0 auto;
   padding: 2rem 4rem;
 
@@ -244,11 +244,17 @@
 
 /* Pronunciation guide */
 #about .hb-ruby-name rt {
-  color: #918b85;
-  font-size: 0.68rem !important;
+  color: #8d8882;
+
+  font-size: 0.82rem !important;
   font-weight: 600;
-  line-height: 1;
-  letter-spacing: 0.05em;
+
+  letter-spacing: 0.08em;
+  word-spacing: 0.55em;
+
+  line-height: 1.1;
+
+  padding-bottom: 0.35rem;
 }
 
 /* Slightly larger name on larger screens */
