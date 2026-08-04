@@ -92,7 +92,7 @@ hugoblox:
   # Site footer
   # ────────────────────────────────────────────────────────────────────────────
   footer:
-    style: centered
+    style: minimal
     language_switcher: false
     text: |
       <div class="mjg-footer-content">
