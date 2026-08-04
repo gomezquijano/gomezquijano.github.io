@@ -4,7 +4,8 @@
 
 #hero {
   position: relative;
-  min-height: 650px;
+  min-height: 600px;
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,18 +16,41 @@
   background-repeat: no-repeat !important;
 }
 
-/* Light cream overlay */
+/* Light overlay */
 #hero::before {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(248,245,235,0.18);
+  background: rgba(248, 245, 235, 0.18);
   pointer-events: none;
 }
 
-#hero > * {
+/* Allow the generated landing-page containers to span the hero */
+#hero > div,
+#hero .container,
+#hero .container-fluid {
   position: relative;
   z-index: 2;
+
+  width: 100% !important;
+  max-width: none !important;
+}
+
+/* Center the generated row and column */
+#hero .row {
+  width: 100%;
+  margin: 0;
+  justify-content: center;
+}
+
+#hero [class*="col-"] {
+  width: 100%;
+  max-width: 100%;
+  flex: 0 0 100%;
+}
+
+/* Remove default Markdown-block spacing */
+#hero .markdown {
   width: 100%;
 }
 
@@ -34,438 +58,118 @@
    HERO CARD
    =========================== */
 
-.mjg-hero-content{
-  width:min(900px,90%);
-  margin:auto;
+.mjg-hero-content {
+  box-sizing: border-box;
 
-  padding:2.2rem 4rem;   /* less vertical, more horizontal */
+  width: min(950px, calc(100% - 48px));
+  margin: 0 auto;
 
-  background:rgba(248,245,235,.92);
-  border-radius:22px;
-  box-shadow:0 18px 50px rgba(0,0,0,.18);
-  text-align:center;
+  /* Shorter vertically and roomier horizontally */
+  padding: 2rem 4rem;
+
+  background: rgba(248, 245, 235, 0.92);
+  border-radius: 22px;
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.18);
+
+  text-align: center;
 }
 
 /* Small title */
+.mjg-hero-kicker {
+  margin: 0 0 0.75rem;
 
-.mjg-hero-kicker{
-
-  margin-bottom:1rem;
-
-  color:#315f1c;
-
-  font-size:.95rem;
-
-  font-weight:700;
-
-  text-transform:uppercase;
-
-  letter-spacing:.05em;
-
-  line-height:1.4;
+  color: #315f1c;
+  font-size: 0.95rem;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
 }
 
 /* Name */
+.mjg-hero-content h1 {
+  max-width: 900px;
+  margin: 0 auto;
 
-.mjg-hero-content h1{
-
-  margin:0;
-
-  color:#0b2720;
-
-  font-size:clamp(3.4rem,6vw,5.2rem);
-
-  line-height:.95;
-
-  letter-spacing:-.03em;
-
-  text-wrap:balance;
-
-  max-width:650px;
-
-  margin-inline:auto;
+  color: #0b2720;
+  font-size: clamp(3rem, 5vw, 4.8rem);
+  line-height: 0.95;
+  letter-spacing: -0.03em;
+  text-wrap: balance;
 }
 
 /* Bio */
+.mjg-hero-summary {
+  max-width: 800px;
+  margin: 1.15rem auto 0;
 
-.mjg-hero-summary{
-
-  max-width:650px;
-
-  margin:1.5rem auto 0;
-
-  color:#26351b;
-
-  font-size:1.28rem;
-
-  line-height:1.65;
+  color: #26351b;
+  font-size: 1.18rem;
+  line-height: 1.55;
 }
 
 /* Buttons */
-
-.mjg-hero-buttons{
-
-  display:flex;
-
-  justify-content:center;
-
-  gap:1rem;
-
-  margin-top:2rem;
-
-  flex-wrap:wrap;
-}
-
-/* Buttons */
-
-.mjg-button{
-
-  display:inline-flex;
-
-  align-items:center;
-
-  justify-content:center;
-
-  min-height:48px;
-
-  padding:.8rem 1.45rem;
-
-  border-radius:8px;
-
-  border:2px solid #315f1c;
-
-  text-decoration:none;
-
-  font-weight:700;
-
-  transition:.2s;
-}
-
-.mjg-button:hover{
-
-  transform:translateY(-2px);
-}
-
-.mjg-button-primary{
-
-  background:#315f1c;
-
-  color:white;
-}
-
-.mjg-button-secondary{
-
-  background:rgba(255,255,255,.5);
-
-  color:#315f1c;
-}
-
-.mjg-button-secondary:hover{
-
-  background:white;
-}
-
-/* Hero links */
-
-.mjg-hero-links{
-
-  display:flex;
-
-  justify-content:center;
-
-  flex-wrap:wrap;
-
-  gap:1rem;
-
-  margin-top:1.6rem;
-}
-
-.mjg-hero-links a{
-
-  color:#315f1c;
-
-  text-decoration:none;
-
-  font-weight:600;
-}
-
-.mjg-hero-links a:hover{
-
-  color:#0b2720;
-}
-
-/* Mobile */
-
-@media (max-width:900px){
-
-#hero{
-
-min-height:550px;
-
-background-position:center center !important;
-
-}
-
-.mjg-hero-content{
-
-padding:2rem;
-
-width:calc(100% - 2rem);
-
-}
-
-.mjg-hero-content h1{
-
-font-size:clamp(2.5rem,11vw,4rem);
-
-}
-
-}
-
-/* =========================================================
-   HOMEPAGE HERO
-   ========================================================= */
-
-#hero {
-  position: relative;
-  min-height: 650px;
+.mjg-hero-buttons {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+  margin-top: 1.5rem;
+}
+
+.mjg-button {
+  display: inline-flex;
   align-items: center;
   justify-content: center;
 
-  background-image: url("/uploads/background.png") !important;
-  background-size: cover !important;
-  background-position: center center !important;
-  background-repeat: no-repeat !important;
+  min-height: 48px;
+  padding: 0.75rem 1.45rem;
+
+  border: 2px solid #315f1c;
+  border-radius: 8px;
+
+  font-weight: 700;
+  text-decoration: none;
+
+  transition: transform 0.2s, background-color 0.2s;
 }
 
-/* Light cream overlay */
-#hero::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: rgba(248,245,235,0.18);
-  pointer-events: none;
+.mjg-button:hover {
+  transform: translateY(-2px);
 }
 
-#hero > * {
-  position: relative;
-  z-index: 2;
-  width: 100%;
+.mjg-button-primary {
+  background: #315f1c;
+  color: white;
 }
 
-/* ===========================
-   HERO CARD
-   =========================== */
-
-.mjg-hero-content{
-
-  width:min(650px,92%);
-  margin:auto;
-
-  padding:3rem 3.5rem;
-
-  background:rgba(248,245,235,.92);
-
-  border-radius:22px;
-
-  box-shadow:0 18px 50px rgba(0,0,0,.18);
-
-  text-align:center;
+.mjg-button-secondary {
+  background: rgba(255, 255, 255, 0.5);
+  color: #315f1c;
 }
 
-/* Small title */
-
-.mjg-hero-kicker{
-
-  margin-bottom:1rem;
-
-  color:#315f1c;
-
-  font-size:.95rem;
-
-  font-weight:700;
-
-  text-transform:uppercase;
-
-  letter-spacing:.05em;
-
-  line-height:1.4;
-}
-
-/* Name */
-
-.mjg-hero-content h1{
-
-  margin:0;
-
-  color:#0b2720;
-
-  font-size:clamp(3.4rem,6vw,5.2rem);
-
-  line-height:.95;
-
-  letter-spacing:-.03em;
-
-  text-wrap:balance;
-
-  max-width:650px;
-
-  margin-inline:auto;
-}
-
-/* Bio */
-
-.mjg-hero-summary{
-
-  max-width:650px;
-
-  margin:1.5rem auto 0;
-
-  color:#26351b;
-
-  font-size:1.28rem;
-
-  line-height:1.65;
-}
-
-/* Buttons */
-
-.mjg-hero-buttons{
-
-  display:flex;
-
-  justify-content:center;
-
-  gap:1rem;
-
-  margin-top:2rem;
-
-  flex-wrap:wrap;
-}
-
-/* Buttons */
-
-.mjg-button{
-
-  display:inline-flex;
-
-  align-items:center;
-
-  justify-content:center;
-
-  min-height:48px;
-
-  padding:.8rem 1.45rem;
-
-  border-radius:8px;
-
-  border:2px solid #315f1c;
-
-  text-decoration:none;
-
-  font-weight:700;
-
-  transition:.2s;
-}
-
-.mjg-button:hover{
-
-  transform:translateY(-2px);
-}
-
-.mjg-button-primary{
-
-  background:#315f1c;
-
-  color:white;
-}
-
-.mjg-button-secondary{
-
-  background:rgba(255,255,255,.5);
-
-  color:#315f1c;
-}
-
-.mjg-button-secondary:hover{
-
-  background:white;
-}
-
-/* Hero links */
-
-.mjg-hero-links{
-
-  display:flex;
-
-  justify-content:center;
-
-  flex-wrap:wrap;
-
-  gap:1rem;
-
-  margin-top:1.6rem;
-}
-
-.mjg-hero-links a{
-
-  color:#315f1c;
-
-  text-decoration:none;
-
-  font-weight:600;
-}
-
-.mjg-hero-links a:hover{
-
-  color:#0b2720;
+.mjg-button-secondary:hover {
+  background: white;
 }
 
 /* Mobile */
+@media (max-width: 900px) {
+  #hero {
+    min-height: 550px;
+  }
 
-@media (max-width:900px){
+  .mjg-hero-content {
+    width: calc(100% - 2rem);
+    padding: 2rem 1.5rem;
+  }
 
-#hero{
+  .mjg-hero-content h1 {
+    font-size: clamp(2.5rem, 11vw, 4rem);
+  }
 
-min-height:550px;
-
-background-position:center center !important;
-
+  .mjg-hero-summary {
+    font-size: 1.05rem;
+    line-height: 1.5;
+  }
 }
-
-.mjg-hero-content{
-
-padding:2rem;
-
-width:calc(100% - 2rem);
-
-}
-
-.mjg-hero-content h1{
-
-font-size:clamp(2.5rem,11vw,4rem);
-
-}
-
-}
-
-
-/* =========================================================
-   FOOTER
-   ========================================================= */
-
-footer{
-
-padding:.75rem 0!important;
-
-font-size:.82rem;
-}
-
-footer p{
-
-margin:.2rem 0;
-}
-}
-
-
