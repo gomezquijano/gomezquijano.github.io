@@ -110,11 +110,6 @@ hugoblox:
           Botanical crest designed by María José Gómez Quijano with the assistance of OpenAI image generation.
         </p>
       </div>
-
-  copyright:
-    notice: "© {year} {name}. All rights reserved."
-    license:
-      type: all_rights
   # ────────────────────────────────────────────────────────────────────────────
   # COPYRIGHT
   # Legal notices and licensing
