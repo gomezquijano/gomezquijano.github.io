@@ -91,13 +91,13 @@ hugoblox:
   # FOOTER
   # Site footer
   # ────────────────────────────────────────────────────────────────────────────
-   footer:
+  footer:
     style: centered
     language_switcher: false
     text: |
       <div class="mjg-footer-content">
         <img
-          src="/uploads/icon.png"
+          src="/uploads/MJGQ-logo.png"
           class="mjg-footer-logo"
           alt="MJGQ botanical crest"
         >
@@ -107,7 +107,7 @@ hugoblox:
         </p>
 
         <p class="mjg-footer-ai">
-          Botanical crest developed by María José Gómez Quijano with the assistance of OpenAI image generation.
+          Botanical crest designed by María José Gómez Quijano with the assistance of OpenAI image generation.
         </p>
       </div>
 
@@ -115,7 +115,6 @@ hugoblox:
     notice: "© {year} {name}. All rights reserved."
     license:
       type: all_rights
-
   # ────────────────────────────────────────────────────────────────────────────
   # COPYRIGHT
   # Legal notices and licensing
