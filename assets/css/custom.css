@@ -35,18 +35,14 @@
    =========================== */
 
 .mjg-hero-content{
-
-  width:min(650px,92%);
+  width:min(900px,90%);
   margin:auto;
 
-  padding:3rem 3.5rem;
+  padding:2.2rem 4rem;   /* less vertical, more horizontal */
 
   background:rgba(248,245,235,.92);
-
   border-radius:22px;
-
   box-shadow:0 18px 50px rgba(0,0,0,.18);
-
   text-align:center;
 }
 
