@@ -173,6 +173,7 @@
     line-height: 1.5;
   }
 }
+
 /* =========================================================
    ABOUT SECTION
    ========================================================= */
@@ -181,6 +182,7 @@
   overflow: hidden;
 }
 
+/* Give the About section more horizontal space */
 #about .container,
 #about .container-fluid {
   width: min(1250px, calc(100% - 48px)) !important;
@@ -188,22 +190,83 @@
   margin-inline: auto;
 }
 
+/* Give the profile column a little more room */
+#about .row > div:first-child {
+  flex: 0 0 42%;
+  max-width: 42%;
+}
+
+#about .row > div:last-child {
+  flex: 0 0 58%;
+  max-width: 58%;
+}
+
 /* Prevent columns from overlapping */
 #about .row > * {
   min-width: 0;
 }
 
-/* Profile image */
-#about img {
-  max-width: 100%;
+/* =========================================================
+   PROFILE PHOTO
+   ========================================================= */
+
+#about .avatar,
+#about .avatar img,
+#about img.avatar {
+  width: 320px !important;
+  height: 320px !important;
+  max-width: 320px !important;
+
+  border-radius: 50%;
+  object-fit: cover;
 }
 
-/* Biography text */
+/* =========================================================
+   LEFT COLUMN TYPOGRAPHY
+   ========================================================= */
+
+/* Name */
+#about .portrait-title h2,
+#about .portrait-title h1 {
+  font-size: clamp(2.3rem, 3vw, 3rem) !important;
+  line-height: 1.05;
+  font-weight: 700;
+  margin-bottom: .4rem;
+}
+
+/* Pronunciation */
+#about .name-pronunciation {
+  font-size: 1rem;
+  color: #888;
+}
+
+/* Pronouns */
+#about .portrait-title p {
+  font-size: 1rem;
+  margin-bottom: .5rem;
+}
+
+/* Job title */
+#about .portrait-title h3 {
+  font-size: 1.4rem !important;
+  line-height: 1.3;
+  color: #315f1c;
+}
+
+/* Institution */
+#about .portrait-title .organization,
+#about .portrait-title .organizations {
+  font-size: 1.05rem;
+}
+
+/* =========================================================
+   BIOGRAPHY
+   ========================================================= */
+
 #about p {
   line-height: 1.65;
 }
 
-/* Prevent long headings and roles from entering the next column */
 #about h1,
 #about h2,
 #about h3 {
@@ -211,24 +274,6 @@
   overflow-wrap: break-word;
 }
 
-/* Job title */
-#about .portrait-title h2 {
-  font-size: clamp(1.2rem, 1.8vw, 1.55rem) !important;
-  line-height: 1.25;
-}
-
-/* Organization */
-#about .portrait-title h3 {
-  font-size: 1rem !important;
-  line-height: 1.4;
-}
-
-@media (max-width: 991px) {
-  #about .container,
-  #about .container-fluid {
-    width: calc(100% - 32px) !important;
-  }
-}
 /* =========================================================
    TABLET AND MOBILE
    ========================================================= */
