@@ -2,7 +2,7 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: María José Gómez Quijano (Majo)
+  display: María José Gómez Quijano
   given: María José
   family: Gómez Quijano
   alternate: mah-REE-ah Hoh-Seh GOH-mez Kee-HAH-noh   # Example: 王伟
