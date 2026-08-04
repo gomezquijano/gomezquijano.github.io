@@ -33,5 +33,5 @@ sections:
     design:
       columns: '1'
       spacing:
-        padding: [70px, 24px, 70px, 24px]
+        padding: [40px, 24px, 40px, 24px]
 ---
