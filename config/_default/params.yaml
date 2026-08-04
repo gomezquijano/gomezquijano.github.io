@@ -97,17 +97,17 @@ hugoblox:
     text: |
       <div class="mjg-footer-content">
         <img
-          src="/uploads/MJGQ-logo.png"
+          src="/uploads/icon.png"
           class="mjg-footer-logo"
           alt="MJGQ botanical crest"
         >
 
         <p class="mjg-footer-tagline">
-          Evolutionary Biologist · Molecular Ecologist
+         · María José (Majo) Gómez Quijano, PhD ·
         </p>
 
         <p class="mjg-footer-ai">
-          Botanical crest designed by María José Gómez Quijano with the assistance of OpenAI image generation.
+          Logo designed by María José Gómez Quijano with the assistance of OpenAI image generation.
         </p>
       </div>
   # ────────────────────────────────────────────────────────────────────────────
