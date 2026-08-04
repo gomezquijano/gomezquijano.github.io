@@ -37,7 +37,7 @@ sections:
       spacing:
         padding: [40px, 24px, 40px, 24px]
 
-  - block: resume-biography-3
+  - block: resume-biography-2
     id: about
     content:
       username: me
