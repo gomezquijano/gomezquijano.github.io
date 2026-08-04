@@ -29,6 +29,11 @@ sections:
           </div>
 
         </div>
+  - block: resume-biography-3
+      id: about
+      content:
+        username: me
+
 
     design:
       columns: '1'
