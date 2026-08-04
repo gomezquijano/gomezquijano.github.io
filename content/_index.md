@@ -38,20 +38,20 @@ sections:
         padding: [40px, 24px, 40px, 24px]
 
   - block: resume-biography-3
-  id: about
-  content:
-    username: me
-    headings:
-      about: About Me
-  design:
-    name:
-      size: small
-    avatar:
-      size: large
-      shape: circle
-    biography:
-      style: "max-width: 65ch;"
-    spacing:
-      padding: [80px, 24px, 80px, 24px]
+    id: about
+    content:
+      username: me
+      headings:
+        about: About Me
+    design:
+      name:
+        size: small
+      avatar:
+        size: large
+        shape: circle
+      biography:
+        style: "max-width: 65ch;"
+      spacing:
+        padding: [80px, 24px, 80px, 24px]
     
 ---
