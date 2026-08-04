@@ -45,7 +45,7 @@ sections:
         about: About Me
     design:
       name:
-        size: small
+        size: compact
       avatar:
         size: large
         shape: circle
