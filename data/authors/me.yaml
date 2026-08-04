@@ -5,8 +5,8 @@ name:
   display: María José Gómez Quijano
   given: María José
   family: Gómez Quijano
-  alternate: mah-REE-ah Hoh-Seh GOH-mez Kee-HAH-noh   # Example: 王伟
-  pronunciation: '' # Example: Wáng Wěi
+  alternate: ''   # Example: 王伟
+  pronunciation: mah-REE-ah Hoh-Seh GOH-mez Kee-HAH-noh # Example: Wáng Wěi
   pronouns: She/They
 postnominals:
   - PhD
