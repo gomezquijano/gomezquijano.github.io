@@ -173,3 +173,224 @@
     line-height: 1.5;
   }
 }
+/* =========================================================
+   ABOUT / BIOGRAPHY SECTION
+   ========================================================= */
+
+#about {
+  background: #ffffff;
+  overflow: hidden;
+}
+
+/* Give the About section enough usable horizontal space */
+#about .container,
+#about .container-fluid {
+  width: min(1200px, calc(100% - 48px)) !important;
+  max-width: 1200px !important;
+  margin-inline: auto;
+}
+
+/* Main two-column layout */
+#about .row {
+  align-items: start;
+  column-gap: 4rem;
+}
+
+/* Prevent either column from overflowing */
+#about .row > * {
+  min-width: 0;
+}
+
+/* ===========================
+   LEFT PROFILE COLUMN
+   =========================== */
+
+#about .resume-biography {
+  text-align: center;
+}
+
+/* Portrait */
+#about img.avatar,
+#about .avatar img,
+#about .avatar-wrapper img {
+  width: 260px !important;
+  height: 260px !important;
+  max-width: 100%;
+
+  object-fit: cover;
+  border-radius: 50%;
+
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.12);
+}
+
+/* Name */
+#about h1 {
+  max-width: 100%;
+  margin: 1.25rem auto 0.4rem;
+
+  color: #0b2720;
+
+  font-size: clamp(2.25rem, 3.5vw, 3.6rem) !important;
+  line-height: 1.02 !important;
+  letter-spacing: -0.025em;
+
+  overflow-wrap: normal;
+  word-break: normal;
+  text-wrap: balance;
+}
+
+/* Pronunciation text */
+#about .pronouns,
+#about .name-pronunciation {
+  margin-top: 0.25rem;
+
+  color: #766f68;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+/* Pronouns */
+#about .portrait-title h3 {
+  margin-top: 0.4rem;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+/* Professional role */
+#about .portrait-title h2 {
+  max-width: 460px;
+  margin: 1rem auto 0;
+
+  color: #315f1c;
+
+  font-size: clamp(1.25rem, 2vw, 1.65rem) !important;
+  line-height: 1.25;
+  font-weight: 700;
+}
+
+/* Organization */
+#about .portrait-title h2 + h3,
+#about .portrait-title .organization {
+  margin-top: 0.6rem;
+
+  color: #3e403b;
+  font-size: 1.05rem;
+  line-height: 1.4;
+}
+
+/* Social icons */
+#about .network-icon {
+  margin-top: 1.4rem;
+}
+
+#about .network-icon li {
+  margin-inline: 0.25rem;
+}
+
+#about .network-icon a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 44px;
+  height: 44px;
+
+  border-radius: 50%;
+}
+
+/* ===========================
+   RIGHT BIOGRAPHY COLUMN
+   =========================== */
+
+#about .biography-title,
+#about h2 {
+  color: #0b2720;
+}
+
+/* Professional Summary heading */
+#about .biography-title {
+  margin: 0 0 1.4rem;
+
+  font-size: clamp(2rem, 3vw, 2.8rem);
+  line-height: 1.1;
+}
+
+/* Main biography text */
+#about .article-style,
+#about .bio-text,
+#about .biography {
+  max-width: 720px;
+
+  color: #26351b;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+/* Paragraph spacing */
+#about .article-style p,
+#about .bio-text p,
+#about .biography p {
+  margin: 0 0 1.25rem;
+}
+
+/* Prevent long text or links from pushing into the other column */
+#about p,
+#about a,
+#about h1,
+#about h2,
+#about h3 {
+  overflow-wrap: break-word;
+}
+
+/* =========================================================
+   TABLET AND MOBILE
+   ========================================================= */
+
+@media (max-width: 991px) {
+  #about .row {
+    display: block;
+  }
+
+  #about .row > * {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  #about .resume-biography,
+  #about .portrait-title {
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+
+  #about .article-style,
+  #about .bio-text,
+  #about .biography {
+    max-width: 760px;
+    margin-inline: auto;
+  }
+
+  #about img.avatar,
+  #about .avatar img,
+  #about .avatar-wrapper img {
+    width: 220px !important;
+    height: 220px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  #about .container,
+  #about .container-fluid {
+    width: calc(100% - 32px) !important;
+  }
+
+  #about h1 {
+    font-size: clamp(2rem, 11vw, 2.8rem) !important;
+  }
+
+  #about .article-style,
+  #about .bio-text,
+  #about .biography {
+    font-size: 1rem;
+    line-height: 1.65;
+  }
+}
