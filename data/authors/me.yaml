@@ -2,11 +2,11 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: María José Gómez Quijano
+  display: María José Gómez Quijano (Majo)
   given: María José
   family: Gómez Quijano
-  alternate: ''  # Example: 王伟
-  pronunciation: mah-REE-ah Hoh-Seh GOH-mez Kee-HAH-noh  # Example: Wáng Wěi
+  alternate: mah-REE-ah Hoh-Seh GOH-mez Kee-HAH-noh   # Example: 王伟
+  pronunciation: '' # Example: Wáng Wěi
   pronouns: She/They
 postnominals:
   - PhD
