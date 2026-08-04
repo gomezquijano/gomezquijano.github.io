@@ -5,7 +5,7 @@ date: 2026-08-03
 type: landing
 
 sections:
-  - block: markdown
+    - block: markdown
     id: hero
     content:
       title: ''
