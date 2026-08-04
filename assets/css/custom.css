@@ -266,24 +266,6 @@
   }
 }
 
-/* Hide the default pronunciation above the name */
-#about .hb-ruby-name rt {
-  display: none;
-}
-
-/* Add the pronunciation as a separate line below the name */
-#about .hb-ruby-name::after {
-  content: "mah-REE-ah Hoh-Seh GOH-mez Kee-HAH-noh";
-
-  display: block;
-  margin-top: 0.65rem;
-
-  color: #8a847d;
-  font-size: 0.9rem;
-  font-weight: 600;
-  line-height: 1.3;
-  letter-spacing: 0.04em;
-}
 
 /* Pronouns */
 #about .portrait-title p {
