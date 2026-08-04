@@ -374,10 +374,82 @@
    ========================================================= */
 
 footer {
-  padding: 0.75rem 0 !important;
-  font-size: 0.82rem;
+  padding: 2.5rem 1.5rem !important;
+
+  background: #f8f5eb;
+  border-top: 1px solid rgba(49, 95, 28, 0.18);
+
+  text-align: center;
+}
+
+footer .container,
+footer .container-fluid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  max-width: 760px;
+  margin-inline: auto;
+}
+
+.mjg-footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+  margin: 0 auto 1rem;
+}
+
+.mjg-footer-logo {
+  display: block;
+
+  width: 120px;
+  height: 120px;
+  margin: 0 auto 1rem;
+
+  object-fit: contain;
+}
+
+.mjg-footer-tagline {
+  margin: 0 0 0.85rem;
+
+  color: #315f1c;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.mjg-footer-ai {
+  max-width: 580px;
+  margin: 0 auto 1rem;
+
+  color: #6f6a63;
+  font-size: 0.8rem;
+  font-style: italic;
+  line-height: 1.5;
 }
 
 footer p {
-  margin: 0.2rem 0;
+  margin: 0.3rem 0;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  footer {
+    padding: 2rem 1rem !important;
+  }
+
+  .mjg-footer-logo {
+    width: 95px;
+    height: 95px;
+  }
+
+  .mjg-footer-tagline {
+    font-size: 0.95rem;
+  }
+
+  .mjg-footer-ai {
+    font-size: 0.75rem;
+  }
 }
