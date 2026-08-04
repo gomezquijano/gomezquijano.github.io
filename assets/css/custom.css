@@ -238,38 +238,33 @@
 
 /* Profile name */
 #about .hb-ruby-name {
-  font-size: 1.8rem !important;
-  line-height: 1.08 !important;
+  font-size: 2.35rem !important;
+  line-height: 1.12 !important;
 }
 
 /* Pronunciation guide */
 #about .hb-ruby-name rt {
-  color: #8d8882;
-
+  color: #817b74;
   font-size: 0.82rem !important;
   font-weight: 600;
-
-  letter-spacing: 0.08em;
-  word-spacing: 0.55em;
-
   line-height: 1.1;
-
-  padding-bottom: 0.35rem;
+  letter-spacing: 0.025em;
+  word-spacing: 0.15em;
+  transform: translateY(0.15rem);
 }
 
-/* Slightly larger name on larger screens */
 @media (min-width: 640px) {
   #about .hb-ruby-name {
-    font-size: 2.7rem !important;
+    font-size: 2.55rem !important;
   }
 }
 
 @media (min-width: 1024px) {
   #about .hb-ruby-name {
-    font-size: 3rem !important;
+    font-size: 2.7rem !important;
+    line-height: 1.12 !important;
   }
 }
-
 /* Pronouns */
 #about .portrait-title p {
   margin-bottom: 0.5rem;
