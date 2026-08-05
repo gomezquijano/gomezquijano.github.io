@@ -9,7 +9,7 @@ view: citation
 # Optional header image (relative to `static/media/` folder).
 banner:
   caption: ''
-  image: ../uploads/banner1.png
+  image: /banner1.png
 ---
 
 
