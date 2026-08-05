@@ -458,6 +458,37 @@ footer p {
    PUBLICATIONS PAGE
    ========================================================= */
 
-.max-w-prose {
-  max-width: 1000px !important;
+/* Widen the outer wrapper on the page containing the 2026 heading */
+.page-body > .max-w-prose:has(article h3[id="2026"]) {
+  width: calc(100% - 48px) !important;
+  max-width: 1100px !important;
+  margin-inline: auto !important;
+}
+
+/* Remove the narrower width imposed by the prose article */
+.page-body article.prose:has(h3[id="2026"]) {
+  width: 100% !important;
+  max-width: none !important;
+}
+
+/* Make the title slightly smaller */
+.page-body article.prose:has(h3[id="2026"]) h1 {
+  font-size: clamp(3rem, 5vw, 4.5rem) !important;
+  line-height: 1.05 !important;
+}
+
+/* Let citation paragraphs use the full width */
+.page-body article.prose:has(h3[id="2026"]) p {
+  max-width: none !important;
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  .page-body > .max-w-prose:has(article h3[id="2026"]) {
+    width: calc(100% - 32px) !important;
+  }
+
+  .page-body article.prose:has(h3[id="2026"]) h1 {
+    font-size: 2.8rem !important;
+  }
 }
