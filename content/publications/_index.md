@@ -5,10 +5,13 @@ cms_exclude: true
 # View.
 view: citation
 
+design:
+  css_class: publications-page
+  
 # Optional header image (relative to `static/media/` folder).
 banner:
   caption: ''
-  image: /static/uploads/banner1.png
+  image: /uploads/banner1.png
 ---
 [Google Scholar Profile](https://scholar.google.ca/citations?user=7Vxn87kAAAAJ&hl=en)
 
