@@ -5,13 +5,9 @@ cms_exclude: true
 # View.
 view: citation
 
-  
-# Optional header image (relative to `static/media/` folder).
-banner:
-  caption: ''
-  image: /banner1.png
 ---
 
+<div class="publications-banner"></div>
 
 [Google Scholar Profile](https://scholar.google.ca/citations?user=7Vxn87kAAAAJ&hl=en)
 
