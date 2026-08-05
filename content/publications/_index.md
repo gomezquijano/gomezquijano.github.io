@@ -1,3 +1,5 @@
+<div class="publications-banner"></div>
+
 ---
 title: Publications
 cms_exclude: true
@@ -6,8 +8,6 @@ cms_exclude: true
 view: citation
 
 ---
-
-<div class="publications-banner"></div>
 
 [Google Scholar Profile](https://scholar.google.ca/citations?user=7Vxn87kAAAAJ&hl=en)
 
