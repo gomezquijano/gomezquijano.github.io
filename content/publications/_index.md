@@ -8,7 +8,7 @@ view: citation
 # Optional header image (relative to `static/media/` folder).
 banner:
   caption: ''
-  image: ''
+  image: /static/uploads/banner1.png
 ---
 [Google Scholar Profile](https://scholar.google.ca/citations?user=7Vxn87kAAAAJ&hl=en)
 
