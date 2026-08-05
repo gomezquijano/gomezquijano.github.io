@@ -9,8 +9,12 @@ view: citation
 # Optional header image (relative to `static/media/` folder).
 banner:
   caption: ''
-  image: /uploads/banner1.png
+  image: ../uploads/banner1.png
 ---
+
+<span class="publications-marker"></span>
+
+
 [Google Scholar Profile](https://scholar.google.ca/citations?user=7Vxn87kAAAAJ&hl=en)
 
 [ORCID Profile](https://orcid.org/0009-0001-7108-8500)
