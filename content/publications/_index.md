@@ -12,8 +12,6 @@ banner:
   image: ../uploads/banner1.png
 ---
 
-<span class="publications-marker"></span>
-
 
 [Google Scholar Profile](https://scholar.google.ca/citations?user=7Vxn87kAAAAJ&hl=en)
 
