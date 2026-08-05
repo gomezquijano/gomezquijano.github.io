@@ -458,56 +458,37 @@ footer p {
    PUBLICATIONS PAGE
    ========================================================= */
 
-.publications-page .article-container,
-.publications-page .universal-wrapper,
-.publications-page .container,
-.publications-page .container-fluid {
+/* Target only the /publications/ page */
+body:has(a[href="/publications/"][aria-current="page"]) main .container,
+body:has(a[href="/publications/"][aria-current="page"]) main .container-fluid,
+body:has(a[href="/publications/"][aria-current="page"]) main .article-container,
+body:has(a[href="/publications/"][aria-current="page"]) main .universal-wrapper {
   width: min(1150px, calc(100% - 48px)) !important;
   max-width: 1150px !important;
   margin-inline: auto !important;
 }
 
-/* Make the main heading smaller */
-.publications-page h1 {
+/* Make the title less huge */
+body:has(a[href="/publications/"][aria-current="page"]) main h1 {
   font-size: clamp(3rem, 5vw, 4.5rem) !important;
-  line-height: 1.05;
+  line-height: 1.05 !important;
 }
 
-/* Improve citation readability */
-.publications-page p {
-  max-width: none;
-  font-size: 1.08rem;
-  line-height: 1.65;
-}
-
-/* Year headings */
-.publications-page h3 {
-  margin-top: 2.75rem;
-  margin-bottom: 1rem;
-
-  font-size: 2rem;
-  line-height: 1.2;
-}
-
-/* Reduce space between profile links */
-.publications-page p:first-of-type {
-  margin-bottom: 1.25rem;
+/* Let the citations use the available width */
+body:has(a[href="/publications/"][aria-current="page"]) main p {
+  max-width: none !important;
 }
 
 /* Mobile */
 @media (max-width: 700px) {
-  .publications-page .article-container,
-  .publications-page .universal-wrapper,
-  .publications-page .container,
-  .publications-page .container-fluid {
+  body:has(a[href="/publications/"][aria-current="page"]) main .container,
+  body:has(a[href="/publications/"][aria-current="page"]) main .container-fluid,
+  body:has(a[href="/publications/"][aria-current="page"]) main .article-container,
+  body:has(a[href="/publications/"][aria-current="page"]) main .universal-wrapper {
     width: calc(100% - 32px) !important;
   }
 
-  .publications-page h1 {
+  body:has(a[href="/publications/"][aria-current="page"]) main h1 {
     font-size: 2.8rem !important;
-  }
-
-  .publications-page p {
-    font-size: 1rem;
   }
 }
