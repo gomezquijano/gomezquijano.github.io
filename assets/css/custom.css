@@ -492,3 +492,28 @@ footer p {
     font-size: 2.8rem !important;
   }
 }
+
+/* =========================================================
+   PUBLICATIONS BANNER
+   ========================================================= */
+
+.publications-banner {
+  width: 100%;
+  height: 260px;
+  margin: 0 0 2.5rem;
+
+  background-image: url("/uploads/banner1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  border-radius: 16px;
+}
+
+@media (max-width: 700px) {
+  .publications-banner {
+    height: 180px;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+  }
+}
