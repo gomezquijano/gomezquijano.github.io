@@ -499,7 +499,7 @@ footer p {
 
 .publications-banner {
   width: 100%;
-  height: 260px;
+  height: 160px;
   margin: 0 0 2.5rem;
 
   background-image: url("/uploads/banner1.png");
@@ -507,7 +507,7 @@ footer p {
   background-position: center;
   background-repeat: no-repeat;
 
-  border-radius: 16px;
+  border-radius: 5px;
 }
 
 @media (max-width: 700px) {
