@@ -5,8 +5,6 @@ cms_exclude: true
 # View.
 view: citation
 
-design:
-  css_class: publications-page
   
 # Optional header image (relative to `static/media/` folder).
 banner:
