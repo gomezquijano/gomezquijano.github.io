@@ -15,7 +15,7 @@ view: citation
 
 ### 2026
 
-**Gomez Quijano**, M. J., Akbar, M. N., Crowson, E., Colautti, R.I. Assortative mating may have facilitated rapid evolution of locally adaptive phenologies during a biological invasion. bioRxiv; 2026.10.08.757682.
+**Gómez Quijano**, M. J., Akbar, M. N., Crowson, E., Colautti, R.I. Assortative mating may have facilitated rapid evolution of locally adaptive phenologies during a biological invasion. bioRxiv; 2026.10.08.757682.
 
 Preprint DOI: https://doi.org/10.64898/2026.10.08.757682
 
