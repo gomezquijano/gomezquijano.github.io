@@ -522,54 +522,53 @@ footer p {
    RESEARCH PAGE
    ========================================================= */
 
-/* Widen the research sections */
-#research-intro .container,
-#capeweed .container,
-#lythrum .container,
-#calamagrostis .container,
-#quercus .container {
-  width: min(1200px, calc(100% - 48px)) !important;
-  max-width: 1200px !important;
-  margin-inline: auto;
+/* Widen the research section containers */
+#research-intro,
+#capeweed,
+#lythrum,
+#calamagrostis,
+#quercus {
+  width: 100%;
 }
 
-/* Remove narrow inner-column restrictions */
-#research-intro .row,
-#capeweed .row,
-#lythrum .row,
-#calamagrostis .row,
-#quercus .row {
-  width: 100%;
-  margin-inline: 0;
+/* Override Hugo Blox's narrow text columns */
+#research-intro .max-w-prose,
+#capeweed .max-w-prose,
+#lythrum .max-w-prose,
+#calamagrostis .max-w-prose,
+#quercus .max-w-prose {
+  width: 100% !important;
+  max-width: 1100px !important;
+  margin-inline: auto !important;
 }
 
-#research-intro [class*="col-"],
-#capeweed [class*="col-"],
-#lythrum [class*="col-"],
-#calamagrostis [class*="col-"],
-#quercus [class*="col-"] {
-  flex: 0 0 100%;
-  width: 100%;
-  max-width: 100%;
+/* Widen the actual prose content */
+#research-intro .prose,
+#capeweed .prose,
+#lythrum .prose,
+#calamagrostis .prose,
+#quercus .prose {
+  width: 100% !important;
+  max-width: none !important;
 }
 
-/* Allow text to occupy more horizontal space */
-#research-intro .markdown,
-#capeweed .markdown,
-#lythrum .markdown,
-#calamagrostis .markdown,
-#quercus .markdown {
-  width: 100%;
-  max-width: none;
+/* Improve readability */
+#research-intro p,
+#capeweed p,
+#lythrum p,
+#calamagrostis p,
+#quercus p {
+  line-height: 1.65;
 }
 
 /* Mobile */
 @media (max-width: 700px) {
-  #research-intro .container,
-  #capeweed .container,
-  #lythrum .container,
-  #calamagrostis .container,
-  #quercus .container {
+  #research-intro .max-w-prose,
+  #capeweed .max-w-prose,
+  #lythrum .max-w-prose,
+  #calamagrostis .max-w-prose,
+  #quercus .max-w-prose {
     width: calc(100% - 32px) !important;
   }
 }
+
