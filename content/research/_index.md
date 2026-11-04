@@ -7,25 +7,21 @@ sections:
   - block: markdown
     id: research-intro
     content:
-      title: Research
+      title: Research Overview
       text: |-
-        I am interested in understanding how evolutionary and ecological processes interact to shape genetic diversity, local adaptation, and the evolutionary trajectories of natural plant populations.
 
-        My research combines population genomics, quantitative genetics, field experiments, and historical biological collections to investigate these processes across diverse plant systems.
+I am interested in understanding how evolutionary, demographic and ecological processes interact to shape genetic diversity, local adaptation, and the evolutionary trajectories of natural plant populations. My research combines population genomics, quantitative genetics, field experiments, and historical herbarium collections to investigate local adaptation, demographic history, and biological invasions.
+
     design:
       columns: "1"
 
   - block: markdown
     id: capeweed
     content:
-      title: "Temporal Genomics and Adaptation"
-      subtitle: "Arctotheca calendula | Capeweed"
+      title: "Temporal Genomics and Demographic History of Capeweed (*Arctotheca calendula*)"
       text: |-
-        How do populations evolve following introductions to new environments?
+Understanding how demographic history and selection interact to shape genomic variation through time and across geographic ranges is a central challenge in evolutionary biology. However, reconstructing evolutionary trajectories remains challenging in complex non-model systems because evolutionary change often unfolds over timescales exceeding direct observation. Herbarium records are an exceptional resource for recovering this missing spatiotemporal dimension. Here, I incorporate population and temporal genomics to reconstruct the introduction history and understand rapid adaptation of *Arctotheca calendula* in Australia. Despite its broad global distribution and evidence of local adaptation, how capeweed became established globally and what genomic changes have occurred since introduction remain unknown. Using historical herbarium genomes, I investigate spatiotemporal changes in genetic diversity and how these trajectories have been shaped by genetic drift, gene flow and selection. Beyond understanding the demographic history of capeweed, I am also building phased chromosome-level genome assemblies to construct a comprehensive capeweed pangenome, providing a genomic framework for investigating structural variation across populations.
 
-        I use contemporary and historical genomic data, including herbarium specimens, to reconstruct the demographic history of capeweed and investigate how genetic diversity and adaptation have changed across space and time.
-
-        This research explores the contributions of genetic drift, gene flow, and natural selection to evolutionary change.
     design:
       columns: "1"
 
