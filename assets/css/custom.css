@@ -517,3 +517,59 @@ footer p {
     border-radius: 10px;
   }
 }
+
+/* =========================================================
+   RESEARCH PAGE
+   ========================================================= */
+
+/* Widen the research sections */
+#research-intro .container,
+#capeweed .container,
+#lythrum .container,
+#calamagrostis .container,
+#quercus .container {
+  width: min(1200px, calc(100% - 48px)) !important;
+  max-width: 1200px !important;
+  margin-inline: auto;
+}
+
+/* Remove narrow inner-column restrictions */
+#research-intro .row,
+#capeweed .row,
+#lythrum .row,
+#calamagrostis .row,
+#quercus .row {
+  width: 100%;
+  margin-inline: 0;
+}
+
+#research-intro [class*="col-"],
+#capeweed [class*="col-"],
+#lythrum [class*="col-"],
+#calamagrostis [class*="col-"],
+#quercus [class*="col-"] {
+  flex: 0 0 100%;
+  width: 100%;
+  max-width: 100%;
+}
+
+/* Allow text to occupy more horizontal space */
+#research-intro .markdown,
+#capeweed .markdown,
+#lythrum .markdown,
+#calamagrostis .markdown,
+#quercus .markdown {
+  width: 100%;
+  max-width: none;
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  #research-intro .container,
+  #capeweed .container,
+  #lythrum .container,
+  #calamagrostis .container,
+  #quercus .container {
+    width: calc(100% - 32px) !important;
+  }
+}
