@@ -15,6 +15,11 @@ view: citation
 
 ### 2026
 
+**Gomez Quijano**, M. J., Akbar, M. N., Crowson, E., Colautti, R.I. Assortative mating may have facilitated rapid evolution of locally adaptive phenologies during a biological invasion. bioRxiv; 2026.10.08.757682.
+
+Preprint DOI: https://doi.org/10.64898/2026.10.08.757682
+
+
 **Quijano MJG**, Wu Y, Smith C, López-Villalobos A, Secombe-Hett P, Campbell N, Sun Z, Colautti RI. Genome-Wide SNP Diversity in Natural and Cultivated Populations Informs Restoration Ecology With Three Calamagrostis Species From the Northwest Territories of Canada. Mol Ecol. 2026 Jul;35(14):e70484. doi: 10.1111/mec.70484. PMID: 42504968; PMCID: PMC13403619.
 
 DOI: https://doi.org/10.1111/mec.70484
