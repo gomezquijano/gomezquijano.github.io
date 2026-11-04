@@ -20,7 +20,7 @@ sections:
           <h1>María José Gómez Quijano</h1>
 
           <p class="mjg-hero-summary">
-            I am an evolutionary biologist and molecular ecologist interested in how evolutionary and ecological processes
+            I am an evolutionary biologist and molecular ecologist interested in how adaptive, demographic, and ecological processes
             interact to shape the evolutionary trajectories of natural plant populations. Beyond research, I am passionate about
             teaching and learning, mentorship, anti-oppressive approaches to science education, and science communication.
           </p>
