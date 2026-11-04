@@ -1,4 +1,4 @@
-
+#Research
 ---
 title: Research
 type: landing
@@ -7,7 +7,7 @@ sections:
   - block: markdown
     id: research-intro
     content:
-      title: Research Overview
+      title: 
       text: |-
         I am interested in understanding how evolutionary, demographic and ecological processes interact to shape genetic diversity, local adaptation, and the evolutionary trajectories of natural plant populations. My research combines population genomics, quantitative genetics, field experiments, and historical herbarium collections to investigate local adaptation, demographic history, and biological invasions.
     design:
