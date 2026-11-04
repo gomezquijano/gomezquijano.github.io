@@ -518,57 +518,47 @@ footer p {
   }
 }
 
+
 /* =========================================================
-   RESEARCH PAGE
+   RESEARCH PAGE - MARKDOWN LAYOUT
    ========================================================= */
 
-/* Widen the research section containers */
-#research-intro,
-#capeweed,
-#lythrum,
-#calamagrostis,
-#quercus {
-  width: 100%;
-}
-
-/* Override Hugo Blox's narrow text columns */
-#research-intro .max-w-prose,
-#capeweed .max-w-prose,
-#lythrum .max-w-prose,
-#calamagrostis .max-w-prose,
-#quercus .max-w-prose {
-  width: 100% !important;
+/* Target the Research page using its generated heading ID */
+.page-body > .max-w-prose:has(article h2[id="temporal-genomics-and-demographic-history-of-capeweed"]) {
+  width: calc(100% - 48px) !important;
   max-width: 1100px !important;
   margin-inline: auto !important;
 }
 
-/* Widen the actual prose content */
-#research-intro .prose,
-#capeweed .prose,
-#lythrum .prose,
-#calamagrostis .prose,
-#quercus .prose {
+/* Remove the narrow article width */
+.page-body article.prose:has(h2[id="temporal-genomics-and-demographic-history-of-capeweed"]) {
   width: 100% !important;
   max-width: none !important;
 }
 
-/* Improve readability */
-#research-intro p,
-#capeweed p,
-#lythrum p,
-#calamagrostis p,
-#quercus p {
-  line-height: 1.65;
+/* Research project headings */
+.page-body article.prose:has(h2[id="temporal-genomics-and-demographic-history-of-capeweed"]) h2 {
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  color: #0b2720;
+  font-size: clamp(1.8rem, 3vw, 2.5rem);
+}
+
+/* Research images */
+.page-body article.prose:has(h2[id="temporal-genomics-and-demographic-history-of-capeweed"]) img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 2rem auto 0.75rem;
+  border-radius: 12px;
 }
 
 /* Mobile */
 @media (max-width: 700px) {
-  #research-intro .max-w-prose,
-  #capeweed .max-w-prose,
-  #lythrum .max-w-prose,
-  #calamagrostis .max-w-prose,
-  #quercus .max-w-prose {
+  .page-body > .max-w-prose:has(article h2[id="temporal-genomics-and-demographic-history-of-capeweed"]) {
     width: calc(100% - 32px) !important;
   }
+}
+
 }
 
