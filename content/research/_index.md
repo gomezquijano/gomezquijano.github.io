@@ -20,35 +20,43 @@ Here, I incorporate population and temporal genomics to reconstruct the introduc
 
 Beyond understanding the demographic history of capeweed, I am also building phased chromosome-level genome assemblies to construct a comprehensive capeweed pangenome, providing a genomic framework for investigating structural variation across populations.
 
-![Capeweed flowers](static/uploads/capeweed.png)
+![Arctotheca calendula (Capeweed)](/uploads/capeweed.png)
 
 *Capeweed (Arctotheca calendula).*
 
 ---
 
-## Flowering Phenology and Assortative Mating
+## Phenological Assortative Mating Facilitates Rapid Adaptation
 
 *Lythrum salicaria* | Purple Loosestrife
 
-How does variation in reproductive timing influence mating opportunities and evolutionary trajectories?
-
-Using common-garden experiments and population genomic approaches, I investigate flowering synchrony, assortative mating, and local adaptation in purple loosestrife.
-
-![Purple loosestrife](/uploads/research/lythrum-photo.jpg)
-
-*Lythrum salicaria.*
-
-![Flowering phenology results](/uploads/research/lythrum-figure.png)
-
-*Flowering phenology and assortative mating results.*
-
-[Read the preprint](https://doi.org/10.64898/2026.10.08.757682)
 
 ---
 
-## Population Genomics for Ecological Restoration
+## Introduction History of Purple Loosestrife in Eastern North America
 
-*Calamagrostis* species | Native Grasses
+*Lythrum salicaria* | Purple Loosestrife
+
+How can genomic information improve ecological restoration practices?
+
+My research uses genomic tools to investigate genetic differentiation, hybridization, and relationships between wild and commercially sourced populations of native grasses in northern Canada.
+
+These findings help inform species identification and the selection of appropriate plant material for restoration.
+
+![Calamagrostis grasses](/uploads/research/calamagrostis-photo.jpg)
+
+*Calamagrostis species.*
+
+![Calamagrostis genomic results](/uploads/research/calamagrostis-figure.png)
+
+*Population genomic differentiation and hybridization.*
+
+[Read the publication](https://doi.org/10.1111/mec.70484)
+
+---
+## Genetic Diversity, Hybridization and population differentiation of *Calamagrostis* in the Northwest Territories of Canada
+
+*Calamagrostis* species | Reedgrasses
 
 How can genomic information improve ecological restoration practices?
 
@@ -68,7 +76,7 @@ These findings help inform species identification and the selection of appropria
 
 ---
 
-## Local Adaptation Across Environmental Gradients
+## Local Adaptation Across Steep and Narrow Environmental Gradients
 
 *Quercus rubra* | Northern Red Oak
 
