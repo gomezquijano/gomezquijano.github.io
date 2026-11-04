@@ -517,49 +517,35 @@ footer p {
     border-radius: 10px;
   }
 }
-
-
 /* =========================================================
    RESEARCH PAGE - MARKDOWN LAYOUT
    ========================================================= */
 
-/* Target the Research page using its generated heading ID */
-.page-body > .max-w-prose:has(article h2[id="temporal-genomics-and-demographic-history-of-capeweed"]) {
+/* Widen the Research page */
+.page-body > .max-w-prose:has(
+  article h2[id="temporal-genomics-and-demographic-history-of-capeweed"]
+) {
   width: calc(100% - 48px) !important;
   max-width: 1100px !important;
   margin-inline: auto !important;
 }
 
 /* Remove the narrow article width */
-.page-body article.prose:has(h2[id="temporal-genomics-and-demographic-history-of-capeweed"]) {
+.page-body article.prose:has(
+  h2[id="temporal-genomics-and-demographic-history-of-capeweed"]
+) {
   width: 100% !important;
   max-width: none !important;
 }
 
 /* Research project headings */
-.page-body article.prose:has(h2[id="temporal-genomics-and-demographic-history-of-capeweed"]) h2 {
+.page-body article.prose:has(
+  h2[id="temporal-genomics-and-demographic-history-of-capeweed"]
+) h2 {
   margin-top: 3rem;
   margin-bottom: 1.5rem;
   color: #0b2720;
   font-size: clamp(1.8rem, 3vw, 2.5rem);
-}
-
-/* Research images */
-.page-body article.prose:has(h2[id="temporal-genomics-and-demographic-history-of-capeweed"]) img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  margin: 2rem auto 0.75rem;
-  border-radius: 12px;
-}
-
-/* Mobile */
-@media (max-width: 700px) {
-  .page-body > .max-w-prose:has(article h2[id="temporal-genomics-and-demographic-history-of-capeweed"]) {
-    width: calc(100% - 32px) !important;
-  }
-}
-
 }
 
 /* =========================================================
@@ -567,24 +553,30 @@ footer p {
    ========================================================= */
 
 .mjg-research-grid {
-  display: grid;
-  grid-template-columns: 35% minmax(0, 1fr);
+  display: grid !important;
+  grid-template-columns: 35% minmax(0, 1fr) !important;
   gap: 2.5rem;
   align-items: start;
+  width: 100%;
   margin: 2rem 0 3rem;
 }
 
-/* Capeweed photograph */
-.mjg-research-photo img {
-  display: block;
-  width: 100%;
-  height: 400px;
-  object-fit: cover;
-  border-radius: 14px;
-  margin: 0;
+/* Photograph on the left */
+.mjg-research-photo {
+  min-width: 0;
 }
 
-/* Research description */
+.mjg-research-photo img {
+  display: block;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: 400px !important;
+  object-fit: cover;
+  border-radius: 14px;
+  margin: 0 !important;
+}
+
+/* Research description on the right */
 .mjg-research-text {
   min-width: 0;
 }
@@ -595,14 +587,40 @@ footer p {
   line-height: 1.65;
 }
 
-/* Mobile layout */
+/* Scientific figures below the descriptions */
+.mjg-research-figure {
+  max-width: 850px;
+  margin: 3rem auto;
+  text-align: center;
+}
+
+.mjg-research-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 12px;
+}
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
 @media (max-width: 800px) {
   .mjg-research-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr !important;
     gap: 1.5rem;
   }
 
   .mjg-research-photo img {
-    height: 300px;
+    height: 300px !important;
+  }
+}
+
+@media (max-width: 700px) {
+  .page-body > .max-w-prose:has(
+    article h2[id="temporal-genomics-and-demographic-history-of-capeweed"]
+  ) {
+    width: calc(100% - 32px) !important;
   }
 }
