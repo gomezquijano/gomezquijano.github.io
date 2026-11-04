@@ -5,15 +5,15 @@
 
 main:
   - name: About Me
-    url: /#about
+    url: /about
     weight: 10
 
   - name: Research
-    url: /#research
+    url: /research
     weight: 20
 
   - name: Teaching
-    url: /#teaching
+    url: /teaching
     weight: 30
 
   - name: Publications
@@ -25,7 +25,7 @@ main:
     weight: 50
 
   - name: News
-    url: /#news
+    url: /news
     weight: 60
 
   - name: Life Out of the Lab
@@ -33,5 +33,5 @@ main:
     weight: 70
 
   - name: Contact Me
-    url: /#contact
+    url: /contact
     weight: 80
