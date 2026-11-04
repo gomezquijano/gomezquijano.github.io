@@ -27,7 +27,7 @@ sections:
 
           <div class="mjg-hero-buttons">
             <a href="#about" class="mjg-button mjg-button-primary">About me</a>
-            <a href="/uploads/Maria_Jose_Gomez_CV.pdf" class="mjg-button mjg-button-secondary">Download CV</a>
+            <a href="/uploads/2026_CV_MJGQ_FULL.pdf" class="mjg-button mjg-button-secondary">Download CV</a>
           </div>
 
         </div>
