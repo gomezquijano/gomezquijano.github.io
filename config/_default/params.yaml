@@ -21,7 +21,7 @@ hugoblox:
     # Short tagline displayed on your site
     tagline: "Evolutionary Biologist · Molecular Ecologist"
     # Site meta description for search engines and social sharing
-    description: "Personal academic website of Dr. Maria Jose Gomez Quijano"
+    description: "María José Gómez Quijano is an evolutionary biologist and molecular ecologist at the University of Toronto. Her research focuses on population genomics, local adaptation, demographic history, and plant evolution."
     # Social accounts (used for meta tags like Twitter Cards)
 
 
@@ -129,7 +129,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   seo:
     # Browser tab title override (defaults to identity.name if not set)
-    title: ""
+    title: "María José Gómez Quijano, PhD"
     # For local_business identity type only
     location:
       address:
