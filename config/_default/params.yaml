@@ -13,7 +13,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "María José Gómez Quijano"
+    name: "María José Gómez Quijano, PhD"
     # Legal entity for copyright notices (defaults to name if not set)
     organization: ""
     # Schema.org type for structured data
@@ -129,7 +129,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   seo:
     # Browser tab title override (defaults to identity.name if not set)
-    title: "María José Gómez Quijano, PhD"
+    title: "María José Gómez Quijano, PhD | Evolutionary Biologist"
     # For local_business identity type only
     location:
       address:
