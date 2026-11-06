@@ -80,6 +80,18 @@ I am interested in understanding how evolutionary, demographic and ecological pr
 
 *Quercus rubra* | Northern Red Oak
 
+<div class="mjg-research-grid">
+<div class="mjg-research-photo">
+<img src="/uploads/oak.png" alt="oak">
+</div>
+<div class="mjg-research-text">
+<p> Population differentiation can evolve along environmental gradients as long as strength of natural selection exceeds the homogenizing effects of gene flow and drift. At small spatial scales, the homogenizing effect of gene flow is expected to be a dominant force, and genetic differentiation requires either strong selection, reduced movement of gametes and propagules, or some combination of these factors.
+</p>
+  
+<p> As part of my MSc research, I investigated patterns of population differentiation and local adaptation in northern red oak (<em>Quercus rubra</em>) along the coast of Lake Superior in Minnesota, USA. This region experiences steep climatic gradients over short geographic distances due to the moderating effects of Lake Superior, creating challenges for forest restoration and seed sourcing. Here, I investigated whether the steep and narrow environment gradient adjacent to Lake Superior has driven adaptive differentiation using population genomic and quantitative genetic approaches. Here, we found substantial variation in germination and growth traits associated with population climatic factors. Although populations exhibited little neutral genetic differentiation, we identified loci under selection associated with the minimum temperature of the coldest month, a factor that defines the climate zones and was also significant in the quantitative trait analyses. In addition, we also found evidence of introgression from the sister species <em>Q. ellipsoidalis</em> into <em>Q. rubra,</em> with rates of introgression correlated with the climate gradient. 
+</p>
 
+</div>
+</div>
 
 [Learn More](https://doi.org/10.1111/mec.17483)
