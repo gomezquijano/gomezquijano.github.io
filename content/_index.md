@@ -17,7 +17,7 @@ sections:
             Evolutionary Biologist · Molecular Ecologist
           </p>
 
-          <h2>María José Gómez Quijano, PhD</h2>
+          <h1>María José Gómez Quijano</h1>
 
           <p class="mjg-hero-summary">
             I am an evolutionary biologist and molecular ecologist interested in how adaptive, demographic, and ecological processes
